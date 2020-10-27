@@ -9,6 +9,7 @@ style = ttk.Style()
 
 style.layout('TNotebook.Tab', []) # turn off tabs
 
+root.attributes('-zoomed', True)
 
 root.title("Goggle OS")
 
