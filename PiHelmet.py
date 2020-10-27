@@ -9,6 +9,8 @@ style = ttk.Style()
 
 style.layout('TNotebook.Tab', []) # turn off tabs
 
+root.config(cursor="none")
+
 root.attributes('-fullscreen', True)
 
 root.title("Goggle OS")
@@ -45,3 +47,4 @@ ttk.Label(tab2, text='Settings').grid(column=0, row=0, padx=30, pady=30)
 
 
 root.mainloop()
+
