@@ -1,0 +1,2 @@
+# PiHelmet
+Welcome to PiHelmet! I don't know what you are doing here, but feel free to browse around what minimal work I have done. This here is a small project of mine utilizing a Raspberry Pi to create a heads up display for when you are skiing. It operates in python, and uses static maps from Mapbox. If for some reason you feel so inclined feel free to make a pull request to add features (i.e. weather, clock, etc.) Other than a map and your speed, that is about it. Enjoy!
