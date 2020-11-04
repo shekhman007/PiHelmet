@@ -23,11 +23,9 @@ tabControl = ttk.Notebook(root)
 
 img = ImageTk.PhotoImage(file="loading.jpeg")
 
-ttk.Label(tab1, image=img).grid(column=0, row=0, padx=30, pady=30)
-
 def getMap():
     os.system(
-        'curl "https://api.mapbox.com/styles/v1/nudnik-shpilkas/ckgjw83u407941bmomr7t7fm1/static/-72.940188,41.881729,18/240x135?access_token=pk.eyJ1IjoibnVkbmlrLXNocGlsa2FzIiwiYSI6ImNrZ2p0YWs5eTA0ODYyc3BuZWdienV0NmoifQ.X9NhPLVGiF5Rc5mInC85hQ" --output /Users/seanshekhman/Desktop/PiHelmet/tile.jpeg'
+        'curl "https://api.mapbox.com/styles/v1/nudnik-shpilkas/ckgjw83u407941bmomr7t7fm1/static/-72.940188,41.881729,18/240x135?access_token=pk.eyJ1IjoibnVkbmlrLXNocGlsa2FzIiwiYSI6ImNrZ2p0YWs5eTA0ODYyc3BuZWdienV0NmoifQ.X9NhPLVGiF5Rc5mInC85hQ" --output /~/pihelmet/tile.jpeg'
         )
     img = ImageTk.PhotoImage(file="tile.jpeg")
     ttk.Label(tab1, image=img).grid(column=0, row=0, padx=30, pady=30)
